@@ -77,3 +77,15 @@ get repo_name when you set up the repo on github, will provide https link to cop
 
 `git push`
 
+
+# Changes to commits
+
+`git commit --amend -m "message"`
+
+change a commit message
+
+#Changes to push
+
+`git push --force-with-lease`
+
+forces a push through to git hub and replaces the last push with the new one as long as its where it expects it

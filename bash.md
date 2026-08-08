@@ -31,3 +31,12 @@ do
 	<commands>
 
 done
+
+
+#Variables
+
+Variables are declared without spacing: x=5
+
+Evaluation of a variable has a specific syntax: $x; $ means to evaluate
+
+Arithmetic Expansion: $((x+1))
