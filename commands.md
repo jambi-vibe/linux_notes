@@ -24,10 +24,32 @@ Important Concepts: "."; denotes the current directory, ".."; denotes the parent
 
 #File/dir parsing
 
-Find: displays file paths of files meeting a specific criteria
+find: displays file paths of files meeting a specific criteria
 
 Syntax: ```find <where to search> <flags>```
 
 Important Flags: -type; specifies what you are looking for(f for file), -size; specifies the size to look for(xxxxc for bytes), !; denotes not, -executable; tests for permissions to see if it is executable
 
+strings: prints printable characters and ignores binary noise
 
+Syntax: ```strings <file name/path> <flags>```
+
+Important Flags:
+
+sort: puts duplicate data next to each other, allows for easier seacrching through data
+
+Syntax: ```sort <file name/path> <flags>```
+
+Important Flags: 
+
+uniq: prints data to consol depending on criteria such as duplicate data or non duplicate data
+
+Syntax: ```uniq <flags>```
+
+Important Flags: -u; denotes specifically non duplicate data
+
+base64: used to manipulate data with different base coding
+
+Syntax: ```base64 <flags>```
+
+Important Flags: -d; decodes data already encoded with base64 cmd

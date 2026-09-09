@@ -23,7 +23,7 @@ Why was it used: I didnt want to go through each notes.md file in every dir to p
 
 
 Multi-line Syntax:
-
+```BASH
 for x in {start..end}
 
 do
@@ -31,7 +31,7 @@ do
 	<commands>
 
 done
-
+```
 
 #Variables
 
@@ -40,3 +40,11 @@ Variables are declared without spacing: x=5
 Evaluation of a variable has a specific syntax: $x; $ means to evaluate
 
 Arithmetic Expansion: $((x+1))
+
+
+
+#Special
+
+```2>/dev/null```
+
+Purpose: Redirection of stderr to the character device. This device recieves the data, and immediatly erases it.
