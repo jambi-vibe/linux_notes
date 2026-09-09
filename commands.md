@@ -24,6 +24,12 @@ Important Concepts: "."; denotes the current directory, ".."; denotes the parent
 
 #File/dir parsing
 
+grep: searches for a specified piece of data, typically a string or char
+
+Syntax: ```grep 'what youre searching for' <file name/path> <flags>```
+
+Important Flags: 
+
 find: displays file paths of files meeting a specific criteria
 
 Syntax: ```find <where to search> <flags>```
